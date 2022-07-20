@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: apiservice
-  namespace: {{YOUR_NAMESPACE}}
+  namespace: {{YOUR_NAMESPA_CE}}
   labels:
     razee/watch-resource: detail
 spec:
